@@ -1,0 +1,275 @@
+            /*CSS Reset*/
+            
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            /*CSS Varables*/
+            
+             :root {
+                --navbar-height: 28px;
+            }
+            /*Navigation bar*/
+            
+            #navbar {
+                display: flex;
+                align-items: center;
+                position: sticky;
+            }
+            
+            #navbar::before {
+                content: "";
+                background-color: rgb(253, 252, 252);
+                position: absolute;
+                height: 16%;
+                width: 100%;
+                z-index: -1;
+            }
+            /*logo and image*/
+            
+            #logo {
+                margin: 0px 29px;
+            }
+            
+            #logo img {
+                margin: 0px 0px;
+                height: 120px;
+            }
+            /*list style*/
+            
+            #navbar {
+                position: sticky;
+            }
+            
+            #navbar ul {
+                display: flex;
+            }
+            
+            #navbar ul li {
+                list-style: none;
+                font-size: 2.5rem;
+            }
+            
+            #navbar ul li a {
+                color: rgb(17, 36, 200);
+                display: block;
+                padding: 26px 43px;
+                border-radius: 999px;
+                text-decoration: none;
+            }
+            
+            #navbar ul li a:hover {
+                color: rgb(233, 206, 166);
+                background-color: rgb(80, 76, 76);
+            }
+            /* Home section*/
+            
+            .Home {
+                display: flex;
+                flex-direction: column;
+                padding: 36px 20px;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .Home ::before {
+                content: "";
+                position: relative;
+                height: 90%;
+                width: 80%;
+                z-index: -1;
+                opacity: 0.89;
+            }
+            
+            .video-container {
+                z-index: -3;
+                position: relative;
+                padding: 52px 2px;
+                padding-top: 33.8cm;
+            }
+            
+            .Home h1 {
+                color: rgb(6, 43, 75);
+                text-align: center;
+            }
+            /*utility class*/
+            
+            .h-primary {
+                font-size: 3.8rem;
+                padding: 12px;
+                display: flex;
+                flex-direction: column;
+                padding: 7px 200 px;
+                height: 200px;
+                justify-content: center;
+                align-items: center;
+                text-decoration: double;
+                text-shadow: 9cm;
+                text-emphasis-color: rgba(6, 120, 250, 0.856);
+                z-index: 2;
+                animation-name: kkr;
+                animation-delay: 1s;
+                animation-duration: 2s;
+            }
+            
+            .h-primary2 {
+                font-size: 3.8rem;
+                padding: 12px;
+                display: flex;
+                flex-direction: column;
+                padding: 7px 20 px;
+                height: 200 px;
+                justify-content: center;
+                align-items: center;
+                z-index: 2;
+                color: rgb(56, 16, 94);
+                font-style: inherit;
+            }
+            
+            .p-secondery {
+                padding: 12px;
+                display: flex;
+                flex-direction: column;
+                padding: 7px 200 px;
+                height: 20px;
+                justify-content: center;
+                align-items: center;
+            }
+            /*membership-drive section*/
+            
+            .membership-drive {
+                border: 2px salmon;
+                padding: 334px 349px;
+                padding-top: 37cm;
+                color: blueviolet;
+                align-items: center;
+            }
+            
+            .Snap-Circuit {
+                border: 2px salmon;
+                padding-top: 7 cm;
+                padding: 33px 349px;
+                color: rgb(4, 245, 105);
+                align-items: center;
+            }
+            
+            .text-center {
+                height: 99px;
+                align-items: center;
+                height: auto;
+                font-size: 2.3rem;
+            }
+            
+            .h-primary45 {
+                font-size: 4.5rem;
+            }
+            
+            .box2 {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+                padding: 45px 65px;
+            }
+            
+            .box3 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 45px 65px;
+            }
+            
+            .box4 {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 45px 65px;
+                animation-name: kkr;
+            }
+            
+            .box5 {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 45px 65px;
+                animation-name: kkr;
+                animation-delay: 1s;
+                animation-duration: 2s;
+            }
+            
+            .box6 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 45px 65px;
+            }
+            
+            .box img {
+                height: 344px;
+            }
+            
+            .h-primary56 {
+                font-size: 3rem;
+                color: rgba(126, 8, 8, 0.808);
+            }
+            
+            .h-primary4 {
+                font-size: 3rem;
+                color: rgba(126, 8, 8, 0.808);
+            }
+            
+            .h-primary5 {
+                font-size: 3rem;
+                color: rgba(126, 8, 8, 0.808);
+            }
+            
+            .h-primary6 {
+                font-size: 3rem;
+                color: rgba(126, 8, 8, 0.808);
+            }
+            
+            .h-primary7 {
+                font-size: 3rem;
+                color: rgba(126, 8, 8, 0.808);
+            }
+            /* mileston in IEEE*/
+            
+            .box1 {
+                animation-delay: 1s;
+                animation-name: kk1;
+            }
+            
+            @keyframes kkr {
+                from {
+                    right: 0px;
+                }
+                to {
+                    position: relative;
+                }
+            }
+            /*   .move-right {
+            transform: translate(350px, 0);
+            -webkit-transform: translate(350px, 0);
+            /** Chrome & Safari **/
+            /*.Our-sponser section*/
+            /*  .object {
+                position: absolute;
+                transition: all 2s ease-in-out;
+            }
+            
+            
+            #axis:hover .move-left {
+    transform: translate(-350px,0);
+    
+    
+    
+    #axis:hover .move-up {
+    transform: translate(0,-350px);
+    
+    
+    #axis:hover .move-down {
+    transform: translate(0,350px);
+    
+    
+    #axis:hover .larger{
+    transform: scale(2);*/
